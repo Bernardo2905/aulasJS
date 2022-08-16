@@ -12,26 +12,26 @@
 // }
 
 
-// function azul() {
-//   limpar();
-//   document.getElementById("title").classList.add("blue");
-// }
+function azul() {
+  limpar();
+  document.getElementById("title").classList.add("blue");
+}
 
-// function verde() {
-//   limpar();
-//   document.getElementById("title").classList.add("green");
-// }
+function verde() {
+  limpar();
+  document.getElementById("title").classList.add("green");
+}
 
-// function vermelho() {
-//   limpar();
-//   document.getElementById("title").classList.add("red");
-// }
+function vermelho() {
+  limpar();
+  document.getElementById("title").classList.add("red");
+}
 
-// function limpar() {
-//   document.getElementById("title").classList.remove("blue");
-//   document.getElementById("title").classList.remove("green");
-//   document.getElementById("title").classList.remove("red");
-//}
+function limpar() {
+  document.getElementById("title").classList.remove("blue");
+  document.getElementById("title").classList.remove("green");
+  document.getElementById("title").classList.remove("red");
+}
 
 function phone(e) {
   document.getElementById("phone").style.display = "block";
